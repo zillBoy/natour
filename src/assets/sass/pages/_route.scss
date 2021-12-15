@@ -1,0 +1,22 @@
+@import "../base/base";
+
+.route__container {
+    width: 90%;
+    background-color: #eee;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+.route__navigation {
+    display: flex;
+}
+
+.route__navigation-item {
+    padding: 10px;
+    border-top: 4px solid #eee;
+}
+
+.selected {
+    border-top: 4px solid rgb(28, 150, 28);
+}
